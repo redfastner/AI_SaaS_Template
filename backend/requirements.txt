@@ -1,0 +1,15 @@
+# Backend dependencies — pinned for reproducibility and supply-chain safety.
+# To upgrade: test in a branch, then update versions here explicitly.
+# Do NOT use unpinned packages in production.
+
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+google-generativeai==0.8.5
+python-multipart==0.0.20
+python-dotenv==1.1.0
+requests==2.32.3
+pillow==11.2.1
+supabase==2.15.3
+stripe==12.2.0
+gunicorn==23.0.0
+# pyjwt removed: JWT validation is handled by supabase.auth.get_user() — no direct JWT parsing needed.
