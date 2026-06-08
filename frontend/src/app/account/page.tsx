@@ -337,7 +337,7 @@ export default function AccountPage() {
                         ACCOUNT
                     </h1>
                     <p className="uppercase text-[10px] font-bold tracking-[0.25em] max-w-2xl mx-auto leading-relaxed text-(--foreground) opacity-70">
-                        Secure Access To Your Viral Diffusion Dashboard.
+                        Secure Access To Your Optimize Maximal AI Dashboard.
                     </p>
                 </div>
 

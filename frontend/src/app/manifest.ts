@@ -5,9 +5,9 @@ export const dynamic = 'force-static'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Viral Diffusion | Content Automation Platform',
-    short_name: 'Viral Diffusion',
-    description: 'Generate Stunning AI Panoramic Posts & Avatars.',
+    name: 'Optimize Maximal AI | Agentic App Template',
+    short_name: 'Optimize Maximal AI',
+    description: 'Agentic AI Optimized Application Development Template.',
     start_url: '/',
     display: 'standalone',
     background_color: '#FFFFFF',

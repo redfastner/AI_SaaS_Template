@@ -10,7 +10,7 @@ export default function GlobalError({
 }) {
   useEffect(() => {
     // In a real enterprise app, you would log this to a service like Sentry here
-    console.error("Viral OS Critical Error:", error);
+    console.error("Optimize Maximal System Critical Error:", error);
   }, [error]);
 
   return (
@@ -19,7 +19,7 @@ export default function GlobalError({
         Something went wrong in the Studio
       </h2>
       <p className="text-zinc-500 text-sm mb-8 max-w-md font-medium">
-        The Viral OS encountered an unexpected error. We've been notified and are working on it.
+        The Optimize Maximal System encountered an unexpected error. We've been notified and are working on it.
       </p>
       <button
         onClick={() => reset()}

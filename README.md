@@ -1,25 +1,21 @@
-# Optimize Maximal AI 
+# AI SaaS Template 
 
-### Description
+## Still under construction, will be modified for internal tooling at my robotics startup. 
 
-*Optimize Maximal AI is the most specialized open source AI application template in the world.*
+*Template scope: landing page, auth, billing, blog, terms, and multiple application slots.*  
 
-*Every technology choice is singular and deliberate: one frontend framework, one backend language, one database, one AI layer — because specialization is what allows every component, every service, and every line of code to be genuinely optimized for AI agents to build upon rather than merely compatible with them.*  
+*Built for startups that need internal AI applications.*  
 
-*I built this to run my humanoid robotics startup's internal tooling (as a deeply AI native org but not an AI company) where custom applications for every purpose (simple & complex) are built locally, able to use local LLMs or APIs, be able to stay local or be deployed fast, existing in one unified OS like environment.*  
-
-*What is included out of the box: landing page, auth, billing, blog, terms, and multiple application slots, all inside a persistent OS-like shell where you never leave the environment. Clone it, prompt an agent, ship a production application into a slot. That is the workflow this was designed for.*  
-
-*Built for two kinds of builders: startups that need internal AI tooling, and startups that want to ship AI applications.*  
-
-### Stack
+### *Stack*
 
 *Frontend: NextJS.*  
 
 *Backend: Python.*  
 
-*Infrastructure: Vercel, Git, Docker.*  
+*DevOps: Git, Docker.*  
 
-*Agentic AI: Antigravity IDE.*
+*Cloud: Vercel, AWS.*
+
+*Agentic AI: Antigravity IDE, Cursor.*
 
 *General AI: Ollama (Local), Open Router (API).*

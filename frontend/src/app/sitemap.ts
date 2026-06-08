@@ -3,7 +3,7 @@ import { getAllPosts } from '@/lib/blog'
 
 export const dynamic = 'force-static'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://viraldiffusion.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://optimizemaximal.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()

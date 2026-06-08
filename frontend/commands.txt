@@ -1,0 +1,5 @@
+NPM:
+cd Optimize_Maximal_AI/frontend
+rm -rf node_modules package-lock.json
+npm install
+npm run dev

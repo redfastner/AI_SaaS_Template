@@ -11,7 +11,7 @@ interface Props {
 export async function generateStaticParams() {
   const posts = getAllPosts();
   if (!posts || posts.length === 0) {
-    return [{ slug: 'diffusion-models-2026' }];
+    return [{ slug: 'agentic-ai-development-2026' }];
   }
   return posts.map((post) => ({ slug: post.slug }));
 }
@@ -22,14 +22,14 @@ export async function generateMetadata({ params }: Props) {
   if (!post) return { title: "Post Not Found" };
 
   return {
-    title: `${post.frontmatter.title} | Viral Diffusion`,
+    title: `${post.frontmatter.title} | Optimize Maximal AI`,
     description: post.frontmatter.excerpt,
     openGraph: {
       title: post.frontmatter.title,
       description: post.frontmatter.excerpt,
       type: 'article',
       publishedTime: post.frontmatter.date,
-      authors: ['Viral Diffusion Team'],
+      authors: ['Optimize Maximal AI Team'],
     }
   };
 }
@@ -41,17 +41,17 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   // Enterprise SEO: Structured Data for Google Rich Results
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://viraldiffusion.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://optimizemaximal.com';
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.frontmatter.title,
     "description": post.frontmatter.excerpt,
     "datePublished": post.frontmatter.date,
-    "author": [{ "@type": "Person", "name": "Viral Diffusion Team" }],
+    "author": [{ "@type": "Person", "name": "Optimize Maximal AI Team" }],
     "publisher": {
       "@type": "Organization",
-      "name": "Viral Diffusion",
+      "name": "Optimize Maximal AI",
       "logo": { "@type": "ImageObject", "url": `${siteUrl}/favicon.ico` }
     }
   };

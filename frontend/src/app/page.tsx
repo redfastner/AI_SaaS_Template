@@ -42,16 +42,15 @@ export default function HomePage() {
 
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-[10px] mobile:text-xs font-bold uppercase tracking-widest text-stone-600 dark:text-stone-400 mb-6 md:mb-8 animate-fade-in-up">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            Hyper Influencer Now Live
+            Agentic AI Template Now Live
           </div>
 
-          <h1 className="flex flex-col md:flex-row items-center justify-center gap-x-4 text-6xl md:text-8xl lg:text-9xl font-light tracking-[-0.07em] leading-[0.85] uppercase text-(--foreground) mb-4 md:mb-6">
-            <span>VIRAL</span>
-            <span>DIFFUSION</span>
+          <h1 className="text-center text-6xl md:text-7xl lg:text-8xl font-light tracking-[-0.07em] leading-[0.85] uppercase text-(--foreground) mb-4 md:mb-6 max-w-5xl mx-auto">
+            OPTIMIZE MAXIMAL AI
           </h1>
 
           <p className="text-sm md:text-lg font-medium text-stone-600 dark:text-stone-400 mb-8 md:mb-10">
-            Bleeding-Edge AI Content Automation Platform<br className="hidden md:block" />
+            Agentic AI Optimized Application Development Template<br className="hidden md:block" />
           </p>
 
           <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
@@ -125,16 +124,15 @@ export default function HomePage() {
                   <Sparkles className="w-6 h-6" />
                 </div>
                 <h3 className="text-3xl md:text-4xl font-semibold text-stone-900 dark:text-stone-50 mb-4 tracking-tight">
-                  Hyper Influencer
+                  Agentic App Development
                 </h3>
                 <p className="text-lg text-stone-600 dark:text-stone-400 max-w-lg">
-                  Generate hyper-realistic AI influencers with consistent faces and unique outputs.
-                  Photorealistic results without models or studios, just pure, improved creativity.
+                  Built to run internal tooling where custom AI applications for every purpose can be built fast and autonomously using an agentic IDE.
                 </p>
               </div>
               <div className="mt-8 z-10">
                 <ul className="space-y-3">
-                  {["Consistent Faces", "Photorealistic Output", "Unique Results"].map((item) => (
+                  {["Fast Prototyping", "Autonomous Building", "Robo-Startup Ready"].map((item) => (
                     <li key={item} className="flex items-center gap-2 text-stone-500 dark:text-stone-500 font-medium">
                       <CheckCircle2 className="w-4 h-4 text-emerald-500" />
                       {item}
@@ -147,18 +145,18 @@ export default function HomePage() {
             {/* SECONDARY FEATURE 1 - CREATOR PROMPTS */}
             <div className="rounded-3xl bg-white dark:bg-black border border-stone-200 dark:border-stone-800 p-8 flex flex-col justify-center gap-4 hover:border-stone-400 dark:hover:border-stone-600 transition-colors group">
               <Command className="w-8 h-8 text-stone-400 group-hover:text-amber-500 transition-colors" />
-              <h4 className="text-xl font-bold text-stone-900 dark:text-stone-50">Creator Prompts</h4>
+              <h4 className="text-xl font-bold text-stone-900 dark:text-stone-50">Fast Deployment</h4>
               <p className="text-sm text-stone-500">
-                Use customized creator prompts for unique outputs. Every avatar generation is distinct and tailored to you.
+                Ready for use and deployment from one or more specialized prompts.
               </p>
             </div>
 
             {/* SECONDARY FEATURE 2 - BRANDING PROMPTS */}
             <div className="rounded-3xl bg-white dark:bg-black border border-stone-200 dark:border-stone-800 p-8 flex flex-col justify-center gap-4 hover:border-stone-400 dark:hover:border-stone-600 transition-colors group">
               <Megaphone className="w-8 h-8 text-stone-400 group-hover:text-blue-500 transition-colors" />
-              <h4 className="text-xl font-bold text-stone-900 dark:text-stone-50">Branding Prompts</h4>
+              <h4 className="text-xl font-bold text-stone-900 dark:text-stone-50">Local or API Models</h4>
               <p className="text-sm text-stone-500">
-                Create product and service ads with your influencers. Test many unique pre-built prompts for diverse results.
+                Integrate neatly with Ollama for local hosting or Open Router for cloud-based API access.
               </p>
             </div>
           </div>

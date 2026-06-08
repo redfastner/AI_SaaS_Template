@@ -5,36 +5,36 @@ import LayoutClient from "./LayoutClient";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://viraldiffusion.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://optimizemaximal.com";
 
 // This is where the Metadata goes. It MUST be in a server component.
 export const metadata: Metadata = {
   title: {
-    default: "Viral Diffusion | Content Automation Platform",
-    template: "%s | Viral Diffusion"
+    default: "Optimize Maximal AI | Agentic App Template",
+    template: "%s | Optimize Maximal AI"
   },
-  description: "Generate Stunning Panoramic Posts, Reels, Avatars, and Ads with bleeding-edge AI. The professional OS for creators and business automation.",
-  keywords: ["AI Panoramic Photos", "AI Panoramic Posts", "AI Carousal Posts", "AI Ads Easy", "AI Avatars", "Content Automation", "Panoramic Edge", "Viral Diffusion"],
-  authors: [{ name: "Viral Diffusion Team" }],
-  creator: "Viral Diffusion",
-  publisher: "Viral Diffusion",
+  description: "Agentic AI Optimized Application Development Template. Build custom AI apps fast and autonomously.",
+  keywords: ["Agentic AI", "NextJS", "Python", "Antigravity IDE", "Ollama", "Open Router", "Optimize Maximal AI"],
+  authors: [{ name: "Optimize Maximal AI Team" }],
+  creator: "Optimize Maximal AI",
+  publisher: "Optimize Maximal AI",
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Viral Diffusion | Content Automation Platform",
-    description: "Bleeding-edge AI for Stunning Panoramic Posts, Avatars, and Ads.",
+    title: "Optimize Maximal AI | Agentic App Template",
+    description: "Agentic AI Optimized Application Development Template.",
     url: siteUrl,
-    siteName: "Viral Diffusion",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Viral Diffusion Platform Preview" }],
+    siteName: "Optimize Maximal AI",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Optimize Maximal AI Platform Preview" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Viral Diffusion | Content Automation Platform",
-    description: "Generate high-end AI content in minutes.",
+    title: "Optimize Maximal AI | Agentic App Template",
+    description: "Agentic AI Optimized Application Development Template.",
     images: ["/og-image.png"],
   },
 };

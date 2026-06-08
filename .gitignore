@@ -4,9 +4,9 @@ out/
 build/
 .DS_Store
 .env*.local
+/playground
 .vercel
 *.log
 .firebase/
 frontend/.firebase/
 .env
-

@@ -28,7 +28,7 @@ const Sidebar = () => {
         <div className="relative w-12 h-12 shrink-0 overflow-hidden rounded-lg border border-black/10 shadow-sm bg-stone-200">
           <Image
             src="/vd-logo.svg"
-            alt="Viral Diffusion Logo"
+            alt="Optimize Maximal AI Logo"
             fill
             sizes="48px"
             /* unoptimized stops desktop blur; object-contain makes it fill the box */
@@ -37,8 +37,9 @@ const Sidebar = () => {
             priority
           />
         </div>
-        <div className="text-lg font-semibold tracking-tighter uppercase text-stone-900 leading-tight">
-          Viral Diffusion
+        <div className="text-sm font-bold tracking-tighter uppercase text-stone-900 leading-none flex flex-col justify-center">
+          <span>Optimize Maximal</span>
+          <span>AI</span>
         </div>
       </div>
 
