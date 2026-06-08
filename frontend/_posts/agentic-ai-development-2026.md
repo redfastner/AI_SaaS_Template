@@ -2,7 +2,7 @@
 title: "Building Agentic AI Tooling Fast: The Optimize Maximal AI Approach"
 excerpt: "How our humanoid robotics startup built an internal platform to rapidly deploy custom AI applications."
 coverImage: "/blog/agentic-ai-cover.webp"
-date: "2026-06-08T00:00:00.000Z"
+date: "2026"
 author:
   name: Optimize Maximal AI Team
   picture: "/blog/author.webp"
