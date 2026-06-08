@@ -1,6 +1,6 @@
 # AI SaaS Template 
 
-## Still under construction, will be modified for internal tooling at my robotics startup. 
+## Still under construction.
 
 *Template scope: landing page, auth, billing, blog, terms, and multiple application slots.*  
 
