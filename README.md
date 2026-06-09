@@ -6,7 +6,7 @@
 
 *Built for startups that need internal AI applications.*  
 
-### *Stack*
+### Stack
 
 *Frontend: NextJS.*  
 
